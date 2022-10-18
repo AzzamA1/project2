@@ -1,3 +1,41 @@
 body{
-	background-color: #E1EFE2;
+  background-color: #E1EFE2;
+}
+
+body ul li a{
+	font-family: Helvetica, Sans-Serif;
+	font-weight: bold;
+	font-size: 15pt
+}
+#navbar-container{
+  text-align: center;
+  background-color: black;
+}
+
+#navbar-container ul{
+  overflow: hidden; 
+  margin: 0; 
+  padding: 0; 
+  position: relative; 
+  list-style-type: none; 
+  display: inline-block;
+}
+
+#navbar-container ul li{ 
+  float: left;
+}
+
+#navbar-container ul li a{
+  color: white;
+  text-decoration: none; 
+  display: block; 
+  padding: 15px 220px;  
+}
+
+#navbar-container ul li a:hover{
+  background-color: red; 
+}
+
+#onpage{
+  text-decoration: underline overline; 
 }
