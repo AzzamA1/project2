@@ -86,6 +86,7 @@ body ul li a{
 
 .sneakers img{
   border-radius: 40%;
+  float: inline-;
 }
 
 .sneakers p{
